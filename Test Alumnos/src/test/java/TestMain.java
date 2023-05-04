@@ -93,7 +93,7 @@ class TestMain {
 
 	@Test
 	public void testDivide3() {
-		int resultadoReal = Main.divide(8, 2);
+		int resultadoReal = Main.divide(7, 2);
 		int resultadoEsperado = 4;
 		assertEquals(resultadoEsperado, resultadoReal);
 	}
